@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+.hero {
+    background-image: url(../img/Portada\ op\ 1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.contenedor {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "caja1 caja2 caja3";
+    gap: 2rem;
+    
+}
+
+.caja1 {
+    grid-area: caja1;
+    background-color:  rgb(245, 200, 208);
+    text-align: center;
+    margin-top: 15px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja2 {
+    grid-area: caja2;
+    background-color: rgb(245, 200, 208);
+    text-align: center;
+    margin-top: 15px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3 {
+    grid-area: caja3;
+    background-color: rgb(245, 200, 208);
+    text-align: center;
+    margin-top: 15px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta__img {
+    width: 70%;
+    justify-content: center;
+}
+
+.fondo {
+    background-color:  lightgoldenrodyellow;
+}
+
+.ultimo {
+    background-image: url(../img/Captura\ de\ pantalla\ 2024-01-09\ 193758.png);
+}
+
+.texto {
+    background-color: rgb(245, 200, 208);
+}
